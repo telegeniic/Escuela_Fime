@@ -1,0 +1,22 @@
+.parte_1
+{
+    background:gold;
+}
+.parte_2
+{
+    background:green;
+    /*
+    En posicion static el div no cambia de posicion aunque se especifique en las reglas
+    
+    En relative si se manipula según las reglas
+    */
+    position:relative;
+    top: 40px;
+    right:0;
+    left:40px;
+    bottom: 0;
+}
+.parte_3
+{
+    background:purple;
+}

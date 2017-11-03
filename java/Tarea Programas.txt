@@ -1,0 +1,39 @@
+Programas
+Tarea 8\._./
+Elabore un programa en JAVA que a traves de un menu de opciones permita al usuario calcular el area de las siguientes figuras:
+	Cuadrado
+	Rectangular
+	Triangulo
+	Circulo
+(Nota: El cuadro de dialogo para seleccionar que sea usando botones)//hecho
+
+Tarea 9
+Elabore un programa en java que mediante un menu de opciones permita calcular la conversion de escala de temperatura:
+	De grados centigrados a grados farenheit
+	De grados farenheit a grados centigrados
+(Nota: El cuadro de dialogo para seleccionar que sea usando botones)//hecho
+
+Tarea 10
+Elabore un programa en java que a traves de un menu de opciones permita al usuario convertir de pesos a las siguientes monedas:
+	Dolar
+	Euro
+	Yen(Japones)
+	Dolar de Hong Kong
+(Notas: Las equivalencias deberan definirse dentro del programa. El cuadro de dialogo para seleccionar que sea usando botones)//hecho
+
+Tarea 11
+Construya un programa en java, que calcule e imprima la siguiente serie para los N primeros terminos:
+	N={1,8,243,16384,1953125...}
+	i^1,i^3,i^5,i^7,i^9;//hecho
+
+Tarea 12
+Construya un programa en java que calcule e imprima la siguiente serie para los N primeros terminos
+	N={-1,2,2-3,4,4,4,-5,6,6,6,6...}
+	i%2==1{num = i*(-1)}
+	i%2==0{for (l=1;l<veces;l++)}//Hecha
+
+Tarea 13
+Contruya un programa en JAVA que calcule e imprima la siguiente serie ara los N primeros terminos
+	N={2.-3.-5.-7.4.6.-9.-11.-13.8.10.12.-15.-17.-19.14...}//Hecha
+
+

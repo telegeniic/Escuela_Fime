@@ -1,0 +1,32 @@
+.parte_1
+{
+    background:gold;
+    width: 300px;
+    height: 50px;
+}
+.parte_2
+{
+    background:green;
+    /*
+    Cuando se guarda en un contenedor con la posición absolute, el div se mueve con respecto al contenedor
+    */
+    position:absolute;
+    width: 300px;
+    height: 50px;
+    top:0;
+    right:0;
+    /*right:0;*/
+}
+.parte_3
+{
+    background:purple;
+    width: 300px;
+    height: 50px;
+}
+.contenedor
+{
+    position:relative;
+    background:red;
+    width: 400px;
+    height: 100px;
+}

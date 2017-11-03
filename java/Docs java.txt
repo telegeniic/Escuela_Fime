@@ -1,0 +1,10 @@
+Pasos para instalar java
+Descargar el jdk
+instalarlo hue hue hue xd
+
+java tutorial de la pagina de oracle
+java api (pagina de oracle, otra vez hue hue)
+	libreria java.util
+
+Constantes:
+Son en mayusculas y con la palabra final antes del tipo de dato

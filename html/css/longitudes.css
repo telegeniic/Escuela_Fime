@@ -1,0 +1,30 @@
+div{
+	height: 50px;
+	font-family: Verdana;
+	font-size: 32px;
+	overflow: visible;
+}
+.pulgada{
+	width: 100%;
+	background: green;
+}
+.centimetro{
+	width: 7cm;
+	background: gold;
+}
+.pica{
+	width: 7pc;
+	background: olive;
+}
+.milimetro{
+	width: 7mm;
+	background: red;
+}
+.punto{
+	width: 7pt;
+	background: blue;
+}
+.pixel{
+	width: 7px;
+	background: pink;
+}

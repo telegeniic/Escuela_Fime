@@ -1,0 +1,9 @@
+<div>	Contenido en bloque
+<span>	Contenido en linea
+<header>
+<article>
+<section>
+<aside>
+<footer>
+css:
+	display

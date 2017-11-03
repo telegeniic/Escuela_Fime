@@ -1,0 +1,15 @@
+nav{
+	background:;
+	font-size:25px; 
+	width: 50%;
+
+}
+.navegacion{
+	display: inline-block;
+	width: 200px;
+	border: 1px solid;
+}
+#inicio{
+	border: 1px solid;
+	
+}

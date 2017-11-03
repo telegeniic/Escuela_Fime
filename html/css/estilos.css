@@ -1,0 +1,14 @@
+.kwcolor{
+	color:red;
+	background:yellow;
+}
+
+.hxdecimal{
+	color: #0000ff;
+}
+.colorrgb{
+	color: rgb(255,0,0);
+}
+.colorrgba{
+	color: rgba(0,0,255,.8);
+}

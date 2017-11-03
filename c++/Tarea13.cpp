@@ -5,9 +5,9 @@ main()
 {
     int i,l=2,n,op=1,par_max=1,j=-3;
     int cont_non=1,cont_par = 1;
-    printf("Introduce la cantidad de numeros de la serie a mostrar");
+    printf("Introduce la cantidad de numeros de la serie a mostrar\n");
     scanf("%d",&n);
-    printf("La serie quedo asi: ")
+    printf("La serie quedo asi: ");
     for(i=0;i<n;i++)
     {
         if(cont_non>3)

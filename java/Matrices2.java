@@ -7,14 +7,14 @@ Descripcion: Generar numeros nones
 import javax.swing.JOptionPane;
 public class Matrices2{
 	public static void main(String[] args) {
-		String entrada,Letrero="";
+		String entrada,letrero="";
 		int i,j,n,m;
-		int[][] A;
+		int[][] a;
 		entrada = JOptionPane.showInputDialog("Cuantas filas tendra el arreglo?");
 		n = Integer.parseInt(entrada);
 		entrada = JOptionPane.showInputDialog("Cuantas columnas tendra el arreglo?");
 		m = Integer.parseInt(entrada);
-		a = new int[n][m]//N es de filas, M es de columnas	(primero filas luego columnas)
+		a = new int[n][m];//N es de filas, M es de columnas	(primero filas luego columnas)
 		for(i=0;i<n;i++)
 		{
 			for(j=0;j<m;j++)

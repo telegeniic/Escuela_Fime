@@ -1,0 +1,1 @@
+Descargar ruby, recomiendan: 2.2.6\

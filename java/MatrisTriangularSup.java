@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 public class MatrisTriangularSup{
 	public static void main(String[] args) {
 		String entrada,letrero="";
-		int i,j,n,m,MA;
+		int i,j,n,m,MA,error;
 		int[][] a;
 		do {
 			entrada = JOptionPane.showInputDialog("Cuantas filas tendra el arreglo?");
@@ -19,7 +19,7 @@ public class MatrisTriangularSup{
 			a = new int[n][m];//N es de filas, M es de columnas	(primero filas luego columnas)
 			if(n!=m){
 				error =1;
-				JOptionPane.showMessageDialog("Tiene que ser una matriz cuadrada (Filas y columnas iguales)");
+				JOptionPane.showMessageDialog(null,"Tiene que ser una matriz cuadrada (Filas y columnas iguales)");
 			}
 			else
 			{
@@ -35,7 +35,7 @@ public class MatrisTriangularSup{
 				a[i][j]=Integer.parseInt(entrada);
 			}
 		}
-		MA = 0
+		MA = 0;
 		for(i=0;i<n;i++)
 		{
 			for(j=0;j<m;j++)

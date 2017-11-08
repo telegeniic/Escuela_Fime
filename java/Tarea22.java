@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 public class Tarea22{
 	public static void main(String[] args) {
 		int i,j,n,m,valor,veces=0;
-		String entrada;
+		String entrada,letrero="";
 		int[][] arreglo;
 		entrada = JOptionPane.showInputDialog("Introduce la cantidad de filas del arreglo");
 		n = Integer.parseInt(entrada);
@@ -33,7 +33,7 @@ public class Tarea22{
 		JOptionPane.showMessageDialog(null,"el valor "+valor+" se encontro "+veces+" veces");
 		for(i=0;i<n;i++){
 			for(j=0;j<m;j++){
-				letrero = letrero + a[i][j] + " ";
+				letrero = letrero + arreglo[i][j] + " ";
 			}
 			letrero = letrero + "\n";
 		}

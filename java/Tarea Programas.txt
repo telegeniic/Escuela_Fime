@@ -40,7 +40,7 @@ Tarea 22
 Contruya un programa en java que, al recibir como datos un arreglo bidimensional de NxM elementos de tipo entero y  un numero entero, determine cuantas veces se encuentra este numero dentro del arreglo. Ademas, que imprima la matriz al final
 	Ejemplo:
 	elemento a buscar: 8
-	el 8 aparece 3 veces
+	el 8 aparece 3 veces	//Hecha
 
 	1	21	89	-2
 	8	7	34	5
@@ -52,4 +52,3 @@ Elaborar un programa en java que calcule la suma de dos matrices que ingrese el 
 
 Tarea 24
 Elaborar un programa en java que calcule la multiplicacion de dos matrices que ingrese el usuario (nota: Validar lo que sea necesario)
-

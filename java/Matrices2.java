@@ -23,12 +23,9 @@ public class Matrices2{
 				a[i][j]=Integer.parseInt(entrada);
 			}
 		}
-		for(i=0;i<n;i++)
-		{
-			for(j=0;j<m;j++)
-			{
+		for(i=0;i<n;i++){
+			for(j=0;j<m;j++){
 				letrero = letrero + a[i][j] + " ";
-
 			}
 			letrero = letrero + "\n";
 		}

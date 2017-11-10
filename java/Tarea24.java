@@ -7,8 +7,8 @@ Descripcion: Generar numeros nones
 import javax.swing.JOptionPane;
 public class Tarea24{
 	public static void main(String[] args) {
-		int i,j,n,m,p,q;
-		String entrada,letrero;
+		int i,j,n,m,p,q,error;
+		String entrada,letrero="";
 		int[][] arreglo1,arreglo2,multiplicacion;
 		do{
 			entrada = JOptionPane.showInputDialog("Introduce la cantidad de filas del primer arreglo");
@@ -69,7 +69,7 @@ public class Tarea24{
 			for (j=0;j<n;j++) {
 				for (p=0;p<n;p++) {
 					for(q=0;p<n;p++){
-						multiplicacion[i][j]=multiplicacion[i][j]+(arreglo1[q][p]*arreglo2[p][q]);
+						multiplicacion[i][j]=multiplicacion[i][j]+(arreglo1[q][p]*arreglo2[q][p]);
 					}
 				}
 			}

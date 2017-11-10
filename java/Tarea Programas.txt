@@ -48,7 +48,8 @@ Contruya un programa en java que, al recibir como datos un arreglo bidimensional
 	21	11	8	8
 
 Tarea 23
-Elaborar un programa en java que calcule la suma de dos matrices que ingrese el usuario (nota: Validar lo que sea necesario)
+Elaborar un programa en java que calcule la suma de dos matrices que ingrese el usuario
+(nota: Validar lo que sea necesario) //Hecha
 
 Tarea 24
 Elaborar un programa en java que calcule la multiplicacion de dos matrices que ingrese el usuario (nota: Validar lo que sea necesario)

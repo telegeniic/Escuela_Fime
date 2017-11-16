@@ -9,8 +9,8 @@ Descripcion: Hcaer un programa que calcule el area de diferentes figuras:
 	Circulo
 */
 import javax.swing.JOptionPane;
-public class AreaFiguras{
-	public static void main(String[] args) 
+public class Tarea8{
+	public static void main(String[] args)
 	{
 		String[] options={"Terminar","Cuadrado","Rectangulo","Triangulo","Circulo"};
 		String entrada;

@@ -14,11 +14,11 @@ public class Tarea11{
 		for(i=1;i<n+1;i++)
 		{
 			valor = i;
-			System.out.println(valor);
+			//System.out.println(valor);
 			for (l=1;l<exp;l++)
 			{
 				valor = valor*i;
-				System.out.println(valor);
+				//System.out.println(valor);
 			}
 			cartel = cartel + valor + ", ";
 			exp = exp + 2;

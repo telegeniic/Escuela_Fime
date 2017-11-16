@@ -5,7 +5,7 @@ Hora: N2
 Descripcion: Convertir de grados Centigrados a Farenheit y viceverza
 */
 import javax.swing.JOptionPane;
-public class Temperaturas{
+public class Tarea9{
 	public static void main(String[] args) {
 		String[] options={"Cancelar", "C->F","F->C"};
 		String entrada;
@@ -14,7 +14,7 @@ public class Temperaturas{
 		int v;
 		v=JOptionPane.showOptionDialog(null,"Seleccione la opcion a convertir", "Figuras", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE, null, options, options[0]);
 		switch(v)
-		{
+		{\
 			case 1:
 			{
 				entrada = JOptionPane.showInputDialog("Cuantos grados centigrados vas a convertir?");
@@ -27,7 +27,7 @@ public class Temperaturas{
 			{
 				entrada = JOptionPane.showInputDialog("Cuantos grados Farenheit vas a convertir?");
 				f=Integer.parseInt(entrada);
-				c_convertido=(f-32*1.0f)/1.5;
+				c_convertido=(f-32*1.0f)/1.8;
 				JOptionPane.showMessageDialog(null,"La temperatura es de: "+c_convertido+"Graddos Centigrados");
 				break;
 

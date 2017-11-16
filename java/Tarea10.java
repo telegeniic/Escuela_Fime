@@ -5,7 +5,7 @@ Hora: N2
 Descripcion: Convertir monedas
 */
 import javax.swing.JOptionPane;
-public class ConvertirMonedas{
+public class Tarea10{
 	public static void main(String[] args) {
 		String[] options={"Terminar","Dolar","Euro","Yen","Dlr HK"};
 		String entrada,mesaje,moneda="",texto;

@@ -43,11 +43,11 @@ Tarea libro piensa en C:
 
 Tarea 17
 Elaborar un programa en java que realice una busqueda de un numero en un vector, mostrando solamente un mensaje indicando cuantas
-veces aparecio el numero. Ademas de imprimir el vector
+veces aparecio el numero. Ademas de imprimir el vector //Hechas
 
 Tarea libro piensa en C :
-	Tarea 18 PS5.1
-	Tarea 19 PS5.3
+	Tarea 18 PS5.1 //hecho
+	Tarea 19 PS5.3 //hecho
 	Tarea 20 PS5.6
 	Tarea 21 PS5.7
 

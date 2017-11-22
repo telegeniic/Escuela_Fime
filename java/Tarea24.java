@@ -42,14 +42,8 @@ public class Tarea24{
 		for(i=0;i<n;i++)
 		{
 			for(j=0;j<m;j++)
-			{
-				do{
-					entrada = JOptionPane.showInputDialog("Ingrese la posicion "+(i+1)+","+(j+1)+" del primer arreglo");
-					if(entrada==""){
-						JOptionPane.showMessageDialog(null,"No puede estar vacio el campo");
-					}
-				}while(entrada=="");
-				
+			{	
+				entrada = JOptionPane.showInputDialog("Ingrese la posicion "+(i+1)+","+(j+1)+" del primer arreglo");
 				arreglo1[i][j]=Integer.parseInt(entrada);
 			}
 		}
@@ -57,12 +51,7 @@ public class Tarea24{
 		{
 			for(j=0;j<m;j++)
 			{
-				do{
-					entrada = JOptionPane.showInputDialog("Ingrese la posicion "+(i+1)+","+(j+1)+" del segundo arreglo");
-					if(entrada==""){
-						JOptionPane.showMessageDialog(null,"No puede estar vacio el campo");
-					}
-				}while(entrada=="");
+				entrada = JOptionPane.showInputDialog("Ingrese la posicion "+(i+1)+","+(j+1)+" del segundo arreglo");
 				arreglo2[i][j]=Integer.parseInt(entrada);
 			}
 		}

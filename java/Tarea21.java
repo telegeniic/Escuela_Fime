@@ -27,6 +27,7 @@ public class Tarea21{
 			if (cereales[i]>promedio) {
 				coseSup++;
 				if(cereales[i]>max){
+					max = cereales[i];
 					idMax=i;
 				}
 			}

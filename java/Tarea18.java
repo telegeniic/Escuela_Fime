@@ -31,7 +31,7 @@ public class Tarea18{
 			}
 			letrero = letrero + arreglo[i]+" ";
 		}
-		JOptionPane.showMessageDialog(null,"La seriq quedo asi: "+letrero);
+		JOptionPane.showMessageDialog(null,"La serie quedo asi: "+letrero);
 		JOptionPane.showMessageDialog(null,"en el arreglo se encontraron "+cont_pos+" numeros positivos "
 			+cont_neg+" numeros negativos "+cont_cero+" nulos");
 	}//Fin del metodo main

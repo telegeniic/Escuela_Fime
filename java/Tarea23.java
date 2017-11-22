@@ -2,7 +2,7 @@
 Nombre: Jesus Martin Guajardo Olivo
 Matricula: 1838264
 Hora: N2
-Descripcion: Generar numeros nones
+Descripcion: Suma de vectores
 */
 import javax.swing.JOptionPane;
 public class Tarea23{
